@@ -1,0 +1,167 @@
+.app-name {
+  font-family: "Sofia", sans-serif;
+  font-size: 25px;
+}
+.bag-name{
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+}
+@media(max-width:1500px){
+  .app-name{
+    font-size: 22px;
+  }
+}
+@media(max-width:1400px){
+  .app-name{
+    font-size: 20px;
+  }
+ 
+}
+@media screen and (max-width:1550px){
+  .navbar-search{
+    width: 500px;
+  }
+}
+@media screen and (max-width:1300px){
+  .navbar-search{
+    width: 400px;
+  }
+}
+@media screen and (max-width:1150px){
+  /* .navbar-search{
+    width: 300px;
+  } */
+  .bag-name{
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width:1170px){
+  .navbar-search{
+    width: 300px;
+  }
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  /* background: linear-gradient(to right, #ccffff 20%, #4aa5ff 120%); */
+  /* background-color:#343a40; */
+  background-color: #547794;
+  display: flex;
+  /* box-shadow: 0 2px 8px 0 rgba(0,0,0,0.16); */
+  align-items: center;
+  color: white;
+  /* position: fixed; */
+}
+.bag-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.navbar-carts,
+.navbar-user {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.navbar-user {
+  position:absolute;
+  right: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.navbar-carts{
+  position: absolute;
+  right: 250px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.navbar-carts:hover{
+  cursor: pointer;
+}
+.RiShoppingCartLine,
+.BsPersonCircle {
+  font-size: x-large;
+}
+.carts-count {
+  color: rgb(255, 1, 1);
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  font-size: larger;
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-search{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 100px;
+}
+.searchbar {
+  width: 700px;
+  height: 40px;
+  border: none;
+  font-size: medium;
+  padding-left: 10px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+}
+.BiSearchAlt2{
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  width: 35px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 5px;
+  color: black;
+}
+.BiSearchAlt2:hover{
+  background-color: rgb(198, 198, 198);
+  cursor: pointer;
+}
+@media screen and (max-width:430px){
+  .navbar-search{
+    width: 350px;
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+  }
+  .bag-name{
+    visibility: hidden;
+  }
+  .navbar-carts{
+    visibility: hidden;
+  }
+  .navbar-user{
+    visibility: hidden;
+  }
+}
+.category-option{
+  list-style-type: none;
+  padding: 5px;
+  font-size: medium;
+  text-align: center;
+  width: 120px;
+  background-color:#F6F3EE;
+  color: black;
+  position: relative;
+  top: 135px;
+  left: 420px;
+  transition: 600ms;
+}
+.category-option:hover{
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}

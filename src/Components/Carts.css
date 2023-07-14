@@ -1,0 +1,120 @@
+.main-cart{
+    display: grid;
+    grid-template-columns: 200px 250px 200px 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    justify-items: center;
+}
+.cart-image{
+    width: 150px;
+}
+.main-cart1{
+    background-color: white;
+    margin: 50px 150px 20px 150px;
+    padding: 10px;
+    border-radius: 25px;
+    height: 500px;
+    overflow-y: scroll;
+}
+.cart-product-value{
+    font-size: xx-large;
+}
+.cart-product-name{
+   font-size: medium; 
+   color: grey;
+   text-align: center;
+}
+.cart-product-name-bold{
+    font-size: 25px;
+    color: black;
+}
+.cart-product-delete{
+    background-color: none;
+    color: black;
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+   border: 1px solid gray;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   transition: 600ms;
+}
+.cart-product-delete:hover{
+    cursor: pointer;
+    background-color: rgb(255, 35, 35);
+    color:white
+}
+.increment-d{
+    font-size: xx-large;
+    border: 1px solid black;
+    padding: 9px 15px 9px 15px;
+    border-radius: 5px;
+    margin: 15px;
+    background-color: rgb(245, 252, 255);
+}
+.increment-d:hover{
+    cursor: pointer;
+    background-color: rgb(215, 243, 255);
+    color: green;
+}
+.carts-text1,.carts-text{
+    font-size: large;
+}
+.carts-text1{
+     margin: 15px;
+     display: flex;
+     align-items: center;
+}
+.HiArrowNarrowLeft:hover{
+    background-color: rgb(169, 169, 169);
+    border-radius: 50%;
+    color: aliceblue;    
+}
+.HiArrowNarrowLeft{
+    padding: 10px;
+    transition: 600ms;
+}
+.checkout-button{
+    width: 150px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 126, 255);
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 600ms;
+    margin: 20px;
+}
+.checkout-button:hover{
+    cursor: pointer;
+    /* background-color: rgb(139, 178, 255);
+    color: black; */
+    font-size: 17px;
+}
+.cart-total{
+    position: absolute;
+    right: 150px;
+}
+/* .loadingSpinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #00cc66 transparent;
+    border-radius: 50%;
+    animation: spin 1.2s linear infinite;
+  }
+  @keyframes spin{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */

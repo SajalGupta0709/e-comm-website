@@ -1,0 +1,28 @@
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 90px;
+}
+.cat-card{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    background-color:#c2fcfc;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    transition: 500ms;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.16);
+}
+.cat-card:hover{
+    cursor: pointer;
+    background-color: #63b1fe;
+    position: relative;
+    top: 5px;
+    border-radius: 30px;
+    color: white;
+}
